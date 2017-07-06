@@ -1,0 +1,106 @@
+body {
+  background: white;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif; }
+  body nav {
+    padding-top: 10px; }
+    body nav .navbar-brand {
+      padding: 0; }
+      body nav .navbar-brand img {
+        height: 50px; }
+    body nav .btn-holder {
+      padding-top: 7px; }
+    body nav .fb-holder {
+      padding-top: 15px;
+      text-align: center; }
+  body .hero {
+    padding: 0 0 80px 0; }
+    body .hero .screenshot-holder {
+      animation: slide-in 400ms; }
+    body .hero .screenshot {
+      width: 100%; }
+    body .hero .hero-text {
+      font-weight: 100;
+      padding: 10px; }
+  body .install-btn {
+    background: none;
+    border: 1px solid #e16b6b;
+    color: #e16b6b;
+    font-weight: 100;
+    outline: none;
+    box-shadow: none;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 6px 12px;
+    line-height: 1.42857143; }
+    body .install-btn.small {
+      font-size: 16px; }
+  body .install-btn:active {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border: 1px solid #e16b6b;
+    background: #e16b6b;
+    color: white; }
+  body .section {
+    min-height: 500px;
+    padding: 100px 0; }
+    body .section.wallpaper-section {
+      background: #e16b6b; }
+      body .section.wallpaper-section .screenshot-holder {
+        background: black; }
+        body .section.wallpaper-section .screenshot-holder .screenshot {
+          width: 100%; }
+      body .section.wallpaper-section .title, body .section.wallpaper-section .content {
+        color: white; }
+    body .section.search-section {
+      background: white; }
+      body .section.search-section .search-animation {
+        width: 100%;
+        box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4); }
+    body .section .title {
+      font-weight: 800; }
+    body .section .content {
+      font-size: 18px;
+      padding-top: 25px; }
+
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0; }
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5; }
+
+.browser-mockup.with-tab:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -2em;
+  left: 5.5em;
+  width: 20%;
+  height: 0em;
+  border-bottom: 2em solid white;
+  border-left: 0.8em solid transparent;
+  border-right: 0.8em solid transparent; }
+
+.browser-mockup > * {
+  display: block; }
+
+@keyframes slide-in {
+  0% {
+    top: 100px;
+    opacity: 0.3; }
+  100% {
+    top: 0px;
+    opacity: 1; } }

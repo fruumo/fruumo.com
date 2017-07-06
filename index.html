@@ -1,56 +1,123 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Fruumo New Tab Page</title>
-		<!-- Search Engine -->
-		<meta name="description" content="Fruumo New Tab Page v2 for chrome.">
-		<!-- Schema.org for Google -->
-		<meta itemprop="name" content="Fruumo New Tab Page">
-		<meta itemprop="description" content="Fruumo New Tab Page v2 for chrome.">
-		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-		<meta name="og:title" content="Fruumo New Tab Page">
-		<meta name="og:description" content="Fruumo New Tab Page v2 for chrome.">
-		<meta name="og:type" content="website">
-		<meta name="viewport" content="width=device-width">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-		<style type = "text/css">
-			html,body{
-				width:100%;
-				height:100%;
-				background:white;
-				font-family: 'Open Sans', sans-serif;
-			}
-			.container{
-				width:100%;
-				height:100%;
-				display:flex;
-				flex-direction:column;
-				justify-content: center;
-				align-items:center;
-				color:black;
-				font-size:24px;
-			}
-			.logo img{
-				width:400px;
-			}
-			.loud{
-				font-size:24px;
-				display:none;
-			}
-			.whisper{
-				margin-top:150px;
-				font-size:14px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class = "container">
-			<div class = "logo"><img src = "./images/logo-tag-line.png"/></div>
-			<div class = "loud"><b>Hi Sexy. </b> Something beautiful and powerful for Chrome is coming here.</div>
-			<div class = "whisper">
-				fruumo new tab page v2 is almost ready.
+<head>
+	<meta charset="utf-8">
+	<title>Fruumo New Tab Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="./dist/index.bundle.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<!-- Search Engine -->
+	<meta name="description" content="Fruumo New Tab Page v2 for chrome.">
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="Fruumo New Tab Page">
+	<meta itemprop="description" content="Fruumo New Tab Page v2 for chrome.">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:title" content="Fruumo New Tab Page">
+	<meta name="og:description" content="Fruumo New Tab Page v2 for chrome.">
+	<meta name="og:type" content="website">
+	<meta name="viewport" content="width=device-width">
+	<script type = "text/javascript" src = "./dist/index.bundle.js"></script>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=202759196567936";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<nav class="navbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+							<img alt="Brand" src="./images/logo.png">
+						</a>
+					</div>				
+				</div>
+				<div class = "col-md-1 fb-holder text-right hidden-sm-down">
+					<div class="fb-like" data-href="https://www.facebook.com/Fruumo/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+				</div>
+				<div class = "col-md-3 hidden-sm-down text-right">
+					<div class = "btn-holder">
+						<button type="button" class="install-btn small">Get Fruumo</button>
+					</div>
+				</div>
 			</div>
 		</div>
-	</body>
+	</nav>
+	<div class = "container hero">
+		<div class = "row justify-content-center">
+			<div class = "col-md-auto">
+				<h1 class = "hero-text">freshen up chrome.</h1>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class = "col-md-10">
+				<div class="screenshot-holder browser-mockup with-tab">
+					<img class = "screenshot" src="./images/screenshot.png" />
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class = "row justify-content-center">
+			<div class = "col-md-auto">
+				<h1 class = "hero-text">
+					<span style = "color:#f9c34c;">Fast. </span> <span style = "color:#e16b6b;">Powerful. </span> <span style = "color:#4daac6;">Sexy. </span>
+				</h1>
+			</div>	
+		</div>
+		<div class = "row justify-content-center">
+			<div class = "col-md-auto text-center">
+				<button type="button" class="install-btn">Get Fruumo</button>
+			</div>	
+		</div>
+	</div>
+	<div class = "container-fluid section wallpaper-section">
+		<div class = "container">
+			<div class = "row align-items-center">
+				<div class="col-md-6">
+					<div class="screenshot-holder animation browser-mockup with-tab">
+						<img class = "screenshot animated fadeIn" style = "display:block;" src="./images/wallpaper1.jpeg" />
+						<img class = "screenshot animated fadeIn" style = "display:none;" src="./images/wallpaper2.jpeg" />
+						<img class = "screenshot animated fadeIn" style = "display:none;" src="./images/wallpaper3.jpeg" />
+					</div>
+				</div>
+				<div class = "col-md-6">
+					<div class = "container-fluid">
+						<div class = "row text-center">
+							<h2 class = "title">A new place every hour.</h2>
+						</div>
+						<div class = "row text-left">
+							<p class = "content">We get you a new hand-picked wallpaper every hour. You'll be more travelled than your "world exploring best friend" before you know it!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "container-fluid section search-section">
+		<div class = "container">
+			<div class = "row align-items-center">
+				<div class = "col-md-6">
+					<div class = "container-fluid">
+						<div class = "row text-center">
+							<h2 class = "title"> Powerful search</h2>
+						</div>
+						<div class = "row text-left">
+							<p class = "content">We get you a new hand-picked wallpaper every hour. You'll be more travelled than your "world exploring best friend" before you know it!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img src = "./images/search.gif" class = "search-animation" alt = "Search engine">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
