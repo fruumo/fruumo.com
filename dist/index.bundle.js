@@ -85,6 +85,10 @@ setInterval(function(){
 	ssHolder.children[change+1].style.display = "block";
 },3000);
 
+window.install = function(){
+	window.top.location = "https://chrome.google.com/webstore/detail/fruumo-new-tab-page/npknnddabjhdijgmmbocdicnknegobkm/";
+}
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports) {
