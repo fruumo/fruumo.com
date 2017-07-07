@@ -8,11 +8,16 @@ body {
       padding: 0; }
       body nav .navbar-brand img {
         height: 50px; }
-    body nav .btn-holder {
-      padding-top: 7px; }
-    body nav .fb-holder {
-      padding-top: 15px;
-      text-align: center; }
+    body nav .menu-holder {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end; }
+      body nav .menu-holder .btn-holder {
+        padding-top: 7px; }
+      body nav .menu-holder .fb-holder {
+        padding-top: 15px;
+        text-align: center;
+        padding-right: 20px; }
   body .hero {
     padding: 50px 10px 90px 10px; }
     body .hero .screenshot-holder {
@@ -32,7 +37,8 @@ body {
     font-size: 24px;
     border-radius: 5px;
     padding: 6px 12px;
-    line-height: 1.42857143; }
+    line-height: 1.42857143;
+    cursor: pointer; }
     body .install-btn.small {
       font-size: 16px; }
   body .install-btn:active {
@@ -72,9 +78,8 @@ body {
       width: 100%;
       box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4); }
   body .footer {
-    min-height: 200px;
     background: #f7f7f7;
-    padding: 50px; }
+    padding: 30px; }
     body .footer .bd-footer-links {
       padding-left: 0;
       margin-bottom: 1rem;
