@@ -18,5 +18,12 @@
 		"2.0.1":[
 			"Fixed weird bugs."
 		]
+	},
+	"resetSettings":{
+		"2.0.3":{
+			"sync":[
+				"screenshots"
+			]
+		}
 	}
 }
