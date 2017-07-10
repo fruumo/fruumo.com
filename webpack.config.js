@@ -18,7 +18,8 @@ module.exports = {
 	],
 	context: path.resolve(__dirname, './precompile/'),
 	entry: {
-		index: './js/index.js'
+		index: './js/index.js',
+		uninstall:'./css/uninstall.scss'
 	},
 	output: {
 		path: path.resolve(__dirname, './dist/'),
