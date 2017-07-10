@@ -1,6 +1,12 @@
 {
 	"latestVersion":"2.0.2",
 	"updateStrings":{
+		"2.0.3":[
+			"fruumo search now has focus by default (You can change this in fruumo settings)",
+			"fruumo search now lets you search your history",
+			"fruumo search bar should no longer show up before everything else",
+			"screenshots will now display on first install, even without local images"
+		],
 		"2.0.2":[
 			"Fruumo now asks for your name so it can greet you",
 			"You can now search open tabs",
