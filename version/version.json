@@ -1,11 +1,13 @@
 {
-	"latestVersion":"2.0.1",
+	"latestVersion":"2.0.2",
 	"updateStrings":{
 		"2.0.2":[
 			"Fruumo now asks for your name so it can greet you",
 			"You can now search open tabs",
 			"You can now use the escape key to quit search",
-			"Search is much faster"
+			"Search is much faster",
+			"Added update notification",
+			"Fonts are now saved locally, therefore fruumo should load faster"
 		],
 		"2.0.1":[
 			"Fixed weird bugs."
