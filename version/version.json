@@ -3,9 +3,10 @@
 	"updateStrings":{
 		"2.0.3":[
 			"fruumo search now has focus by default (You can change this in fruumo settings)",
-			"fruumo search now lets you search your history",
+			"fruumo search now lets you autocomplete your urls",
 			"fruumo search bar should no longer show up before everything else",
-			"screenshots will now display on first install, even without local images"
+			"screenshots will now display on first install, even without local images",
+			"fruumo commands accessible by typing @ in the search bar"
 		],
 		"2.0.2":[
 			"Fruumo now asks for your name so it can greet you",
