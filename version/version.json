@@ -1,6 +1,10 @@
 {
-	"latestVersion":"2.0.3",
+	"latestVersion":"2.0.4",
 	"updateStrings":{
+		"2.0.4":[
+			"fruumo now lets you view your tabs opened on other devices",
+			"fruumo now has a large thumbnail mode for your most visited from settings"
+		],
 		"2.0.3":[
 			"fruumo search now has focus by default (You can change this in fruumo settings)",
 			"fruumo search now lets you autocomplete your urls",
