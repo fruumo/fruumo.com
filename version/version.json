@@ -1,6 +1,11 @@
 {
-	"latestVersion":"2.0.4",
+	"latestVersion":"2.0.5",
 	"updateStrings":{
+		"2.0.5":[
+			"fruumo now hides updates list by default :)",
+			"fixed google search localization",
+			"changed fruumo search placeholder to icon"
+		],
 		"2.0.4":[
 			"fruumo now lets you view your tabs opened on other devices",
 			"fruumo now has a large thumbnail mode for your most visited from settings"
