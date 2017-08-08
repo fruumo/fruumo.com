@@ -1,6 +1,9 @@
 {
-	"latestVersion":"2.0.5",
+	"latestVersion":"2.0.6",
 	"updateStrings":{
+		"2.0.6":[
+			"fruumo now encourages use of the search bar"
+		],
 		"2.0.5":[
 			"fruumo now hides updates list by default :)",
 			"fixed google search localization",
