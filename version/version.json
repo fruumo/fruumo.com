@@ -1,6 +1,12 @@
 {
-	"latestVersion":"2.0.6",
+	"latestVersion":"2.0.7",
 	"updateStrings":{
+		"2.0.7":[
+			"you can now modify your search queries after selecting them",
+			"fixed a bug that gave apps a black label in the list when they were selected",
+			"added ability to turn on auto-hide statusbar",
+			"fixed a bug which left-aligned most visited links when there were less than 4 per row"
+		],
 		"2.0.6":[
 			"fruumo now encourages use of the search bar"
 		],
