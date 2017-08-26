@@ -1,6 +1,11 @@
 {
-	"latestVersion":"2.0.7",
+	"latestVersion":"2.0.8",
 	"updateStrings":{
+		"2.0.8":[
+			"Removed shaking of search bar when not using",
+			"Fixed weird alignment issue when most visited is turned off",
+			"Fixed misc. bugs"
+		],
 		"2.0.7":[
 			"you can now modify your search queries after selecting them",
 			"fixed a bug that gave apps a black label in the list when they were selected",
