@@ -47,6 +47,11 @@
 		]
 	},
 	"resetSettings":{
+		"2.0.9":{
+			"local":[
+				"searchDb"
+			]
+		},
 		"2.0.3":{
 			"local":[
 				"screenshots"
