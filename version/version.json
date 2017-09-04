@@ -1,6 +1,9 @@
 {
 	"latestVersion":"2.0.8",
 	"updateStrings":{
+		"2.0.9":[
+			"Test update",
+		],
 		"2.0.8":[
 			"Removed shaking of search bar when not using",
 			"Fixed weird alignment issue when most visited is turned off",
