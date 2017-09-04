@@ -1,8 +1,12 @@
 {
-	"latestVersion":"2.0.8",
+	"latestVersion":"2.0.9",
 	"updateStrings":{
 		"2.0.9":[
-			"Test update"
+			"Always displaying weather",
+			"@weather command",
+			"Wallpapers are now time-sensitive",
+			"Update screen no longer shows automatically",
+			"Various bug fixes"
 		],
 		"2.0.8":[
 			"Removed shaking of search bar when not using",
