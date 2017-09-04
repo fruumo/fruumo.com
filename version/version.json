@@ -2,7 +2,7 @@
 	"latestVersion":"2.0.8",
 	"updateStrings":{
 		"2.0.9":[
-			"Test update",
+			"Test update"
 		],
 		"2.0.8":[
 			"Removed shaking of search bar when not using",
