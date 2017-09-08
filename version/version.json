@@ -1,6 +1,10 @@
 {
-	"latestVersion":"2.0.9",
+	"latestVersion":"2.1.0",
 	"updateStrings":{
+		"2.1.0":[
+			"Fixed 12 hour time bug",
+			"You can now download the current wallpaper from the bottom-left corner"
+		],
 		"2.0.9":[
 			"Always displaying weather",
 			"@weather command",
@@ -51,6 +55,11 @@
 		]
 	},
 	"resetSettings":{
+		"2.1.0":{
+			"local":[
+				"searchDb"
+			]
+		},
 		"2.0.9":{
 			"local":[
 				"searchDb"
