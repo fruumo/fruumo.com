@@ -1,6 +1,10 @@
 {
-	"latestVersion":"2.1.0",
+	"latestVersion":"2.1.1",
 	"updateStrings":{
+		"2.1.1":[
+			"Updated url autocomplete",
+			"Various bug fixes"
+		],
 		"2.1.0":[
 			"Fixed 12 hour time bug",
 			"You can now download the current wallpaper from the bottom-left corner"
@@ -22,39 +26,14 @@
 			"fixed a bug that gave apps a black label in the list when they were selected",
 			"added ability to turn on auto-hide statusbar",
 			"fixed a bug which left-aligned most visited links when there were less than 4 per row"
-		],
-		"2.0.6":[
-			"fruumo now encourages use of the search bar"
-		],
-		"2.0.5":[
-			"fruumo now hides updates list by default :)",
-			"fixed google search localization",
-			"changed fruumo search placeholder to icon"
-		],
-		"2.0.4":[
-			"fruumo now lets you view your tabs opened on other devices",
-			"fruumo now has a large thumbnail mode for your most visited from settings"
-		],
-		"2.0.3":[
-			"fruumo search now has focus by default (You can change this in fruumo settings)",
-			"fruumo search now lets you autocomplete your urls",
-			"fruumo search bar should no longer show up before everything else",
-			"screenshots will now display on first install, even without local images",
-			"fruumo commands accessible by typing @ in the search bar"
-		],
-		"2.0.2":[
-			"Fruumo now asks for your name so it can greet you",
-			"You can now search open tabs",
-			"You can now use the escape key to quit search",
-			"Search is much faster",
-			"Added update notification",
-			"Fonts are now saved locally, therefore fruumo should load faster"
-		],
-		"2.0.1":[
-			"Fixed weird bugs."
 		]
 	},
 	"resetSettings":{
+		"2.1.1":{
+			"local":[
+				"searchDb"
+			]
+		},
 		"2.1.0":{
 			"local":[
 				"searchDb"
@@ -63,11 +42,6 @@
 		"2.0.9":{
 			"local":[
 				"searchDb"
-			]
-		},
-		"2.0.3":{
-			"local":[
-				"screenshots"
 			]
 		}
 	}
