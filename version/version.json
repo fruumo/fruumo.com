@@ -1,6 +1,12 @@
 {
 	"latestVersion":"2.1.1",
 	"updateStrings":{
+		"2.1.2":[
+			"Weather shows daily forecast alongside hourly",
+			"Time autohides while searching, to bring focus to the search",
+			"Added smart domain feature to fruumo, it can now autodetect dead domains and search instead",
+			"Various bug fixes"
+		],
 		"2.1.1":[
 			"Updated url autocomplete",
 			"Various bug fixes"
@@ -15,34 +21,8 @@
 			"Wallpapers are now time-sensitive",
 			"Update screen no longer shows automatically",
 			"Various bug fixes"
-		],
-		"2.0.8":[
-			"Removed shaking of search bar when not using",
-			"Fixed weird alignment issue when most visited is turned off",
-			"Fixed misc. bugs"
-		],
-		"2.0.7":[
-			"you can now modify your search queries after selecting them",
-			"fixed a bug that gave apps a black label in the list when they were selected",
-			"added ability to turn on auto-hide statusbar",
-			"fixed a bug which left-aligned most visited links when there were less than 4 per row"
 		]
 	},
 	"resetSettings":{
-		"2.1.1":{
-			"local":[
-				"searchDb"
-			]
-		},
-		"2.1.0":{
-			"local":[
-				"searchDb"
-			]
-		},
-		"2.0.9":{
-			"local":[
-				"searchDb"
-			]
-		}
 	}
 }
