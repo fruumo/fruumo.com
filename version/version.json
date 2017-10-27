@@ -1,6 +1,11 @@
 {
-	"latestVersion":"2.1.6",
+	"latestVersion":"2.1.7",
 	"updateStrings":{
+		"2.1.7":[
+			"Added amazon search for American and Canadian Users",
+			"Added reduce animations option",
+			"Various bug fixes"
+		],
 		"2.1.4":[
 			"Retimed animations",
 			"Fixed autocorrect bugs",
@@ -38,5 +43,10 @@
 		]
 	},
 	"resetSettings":{
+		"2.1.7":{
+  			"local":[
+  				"searchDb"
+  			]
+  		}
 	}
 }
