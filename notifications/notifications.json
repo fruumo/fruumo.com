@@ -1,0 +1,23 @@
+{
+	"notifications":[
+		{
+			"id":"5ed1917d612e36029fd64b7b096da85a",
+			"text":"Hey {username}! <br/> Thanks for using fruumo! It'd be nice if you could go here and leave an honest review about fruumo!<br/>Thanks,<br/>Manak",
+			"showTime": {
+				"if":"timeSinceInstall",
+				"time":604800000
+			},
+			"priority":1			
+		},
+		{
+			"id":"ab95edae768b6eb8a150da06f2fa69df",
+			"text":"Hey {username}! <br/> This is a test notification!<br/>Thanks,<br/>Manak",
+			"showTime": {
+				"if":"timeSinceInstall",
+				"time":5000
+			},
+			"priority":1,
+			"expiryTime":3600000
+		}
+	]
+}
