@@ -1,6 +1,9 @@
 {
-	"latestVersion":"2.1.8",
+	"latestVersion":"2.1.9",
 	"updateStrings":{
+		"2.1.9":[
+			"Various bug fixes"
+		],
 		"2.1.7":[
 			"Added amazon search for American and Canadian Users",
 			"Added reduce animations option",
