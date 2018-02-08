@@ -1,6 +1,11 @@
 {
-	"latestVersion":"2.1.9",
+	"latestVersion":"2.2.0",
 	"updateStrings":{
+		"2.2.0":[
+			"Fixed broken searches",
+			"Fruumo now tells you when internet is disconnected",
+			"Fixed the download button to download the current wallpaper"
+		],
 		"2.1.9":[
 			"Various bug fixes"
 		],
