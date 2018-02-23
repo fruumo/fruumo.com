@@ -1,6 +1,10 @@
 {
-	"latestVersion":"2.2.0",
+	"latestVersion":"2.2.1",
 	"updateStrings":{
+		"2.2.1":[
+			"Added subtle advertising to support fruumo :(",
+			"Various bug fixes"
+		],
 		"2.2.0":[
 			"Fixed broken searches",
 			"Fruumo now tells you when internet is disconnected",
