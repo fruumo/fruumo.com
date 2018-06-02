@@ -1,6 +1,12 @@
 {
-	"latestVersion":"2.2.1",
+	"latestVersion":"2.2.2",
 	"updateStrings":{
+		"2.2.2":[
+			"Removed Advertising :)",
+			"Search engine is now improved greatly",
+			"New update screen",
+			"Various bug fixes"
+		],
 		"2.2.1":[
 			"Added subtle advertising to support fruumo :(",
 			"Various bug fixes"
