@@ -1,6 +1,12 @@
 {
-	"latestVersion":"2.2.2",
+	"latestVersion":"2.2.3",
 	"updateStrings":{
+		"2.2.3":[
+			"Memory usage dropped by 80%",
+			"Search should perform better",
+			"Added Hindi translations",
+			"Russian translations coming soon"
+		],
 		"2.2.2":[
 			"Removed Advertising :)",
 			"Search engine is now improved greatly",
