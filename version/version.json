@@ -1,6 +1,10 @@
 {
 	"latestVersion":"2.2.3",
 	"updateStrings":{
+		"2.2.4":[
+			"Added ability to turn off smart preloading",
+			"Various bug fixes"
+		],
 		"2.2.3":[
 			"Memory usage dropped by 80%",
 			"Search should perform better",
