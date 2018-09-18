@@ -1,0 +1,3 @@
+[submodule "m4xwell/slider"]
+	path = m4xwell/slider
+	url = https://github.com/Manak/obs-slider
