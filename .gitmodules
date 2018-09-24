@@ -1,3 +1,3 @@
-[submodule "m4xwell/slider"]
-	path = m4xwell/slider
+[submodule "obs/slider"]
+	path = obs/slider
 	url = https://github.com/Manak/obs-slider
