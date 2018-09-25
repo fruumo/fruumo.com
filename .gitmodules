@@ -1,3 +1,6 @@
 [submodule "obs/slider"]
 	path = obs/slider
 	url = https://github.com/Manak/obs-slider
+[submodule "obs/floatmoji"]
+	path = obs/floatmoji
+	url = https://github.com/Manak/obs-floatmoji
