@@ -1,6 +1,9 @@
 {
 	"latestVersion":"2.2.5",
 	"updateStrings":{
+		"2.2.6":[
+			"Fixed weather issues"
+		],
 		"2.2.5":[
 			"Added ability to turn off smart preloading",
 			"Various bug fixes"
@@ -71,6 +74,13 @@
 		]
 	},
 	"resetSettings":{
+		"2.2.6":{
+			"local":[
+				"weather",
+				"location",
+				"customWeather"
+			]
+		},
 		"2.1.7":{
   			"local":[
   				"searchDb"
