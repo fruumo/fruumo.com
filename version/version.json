@@ -1,6 +1,7 @@
 {
-	"latestVersion":"2.2.5",
+	"latestVersion":"2.2.7",
 	"updateStrings":{
+		"2.2.7":[],
 		"2.2.6":[
 			"Fixed weather issues"
 		],
@@ -74,6 +75,13 @@
 		]
 	},
 	"resetSettings":{
+		"2.2.7":{
+			"local":[
+				"weather",
+				"location",
+				"customWeather"
+			]
+		},
 		"2.2.6":{
 			"local":[
 				"weather",
